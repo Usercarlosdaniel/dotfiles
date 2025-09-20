@@ -1,0 +1,17 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "margin": "0 0 0 0",
+    "spacing": 6,
+    "modules-left": ["tray"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": [
+        "group/expand",
+        "pulseaudio",
+        "cpu",
+        "clock",
+        "custom/power"
+    ],
+    "include": ["modules.jsonc"]
+}
